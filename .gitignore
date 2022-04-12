@@ -1,0 +1,5 @@
+# 项目排除路径
+/mybatis-generator-database/target/
+/news-common/target/
+/news-dev-api/target/
+/news-dev-user/target/
