@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class helloController implements HelloControllerApi {
     final static Logger logger = LoggerFactory.getLogger(helloController.class);
-    @GetMapping("/hello")
+    //Swagger2 文档生成工具
     public Object hello(){
         logger.debug("debug:hello~");
         logger.info("info:hello~" );

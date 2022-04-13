@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-generator-database" />
         <module name="news-common" />
         <module name="news-dev-user" />
         <module name="news-model" />
@@ -15,7 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="news" options="-parameters" />
+      <module name="news" options="" />
       <module name="news-common" options="-parameters" />
       <module name="news-dev-api" options="-parameters" />
       <module name="news-dev-user" options="-parameters" />
